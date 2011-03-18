@@ -7,7 +7,6 @@ WriteMakefile(
 	PREREQ_PM    => {
 		Carp::Clan    => 0,
 		Test::More    => 0,
-		Log::Log4perl => 0,
 		Net::TacacsPlus::Client => '1.09',
 		POE           => 0,
 	},
