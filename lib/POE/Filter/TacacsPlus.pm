@@ -9,7 +9,7 @@ POE::Filter::TacacsPlus - TacacsPlus packet filter
 use strict;
 use warnings;
 
-our $VERSION = 1.06;
+our $VERSION = '1.10_01';
 
 
 use Net::TacacsPlus::Packet 1.05;
