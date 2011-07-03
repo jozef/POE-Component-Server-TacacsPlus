@@ -56,7 +56,7 @@ use Log::Log4perl qw(:nowarn :easy :no_extra_logdie_message);
 use Net::TacacsPlus::Constants;
 use Carp::Clan;
 
-our $VERSION     = '1.10_01';
+our $VERSION     = '1.10';
 our $SERVER_PORT = 49;
 
 
