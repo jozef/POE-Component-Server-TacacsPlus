@@ -1,5 +1,8 @@
 Revision history for Perl extension Net::TacacsPlus.
 
+1.11 2011-07-03
+    - Update Makefile.PL to list all required modules.
+
 1.10 2011-07-02
     - server_msg available (thanks to Neal Gooch)
     - allow password change within authenticate method call (thanks to Neal Gooch)
@@ -31,11 +34,11 @@ Revision history for Perl extension Net::TacacsPlus.
     - POE server module
 
 1.05  Fri Sep 07 21:20:00 2007
-	- authorize no more modifies args but has optional thirt parameter to return back the args from server
-	- tests for authorization and accounting
-	- separated Packet packages to more files
-	- ASCII authentication uninitialized variable fix
-	- ASCII authentication test
+    - authorize no more modifies args but has optional thirt parameter to return back the args from server
+    - tests for authorization and accounting
+    - separated Packet packages to more files
+    - ASCII authentication uninitialized variable fix
+    - ASCII authentication test
 
 1.04  Sun Sep 02 00:48:00 2007
     - use strict !!! for ::Client...
@@ -44,9 +47,9 @@ Revision history for Perl extension Net::TacacsPlus.
 
 1.03  Tue Aug 28 16:08:14 2007
     - Added TACACS+ authorization and accounting
-    - minor code changes to existing code to be able to 
+    - minor code changes to existing code to be able to
       support authorization and accounting
-    - TACACS+ session is now initialized each time a call is 
+    - TACACS+ session is now initialized each time a call is
       made to authenticate(), authorize() or account() making it
       possible to reuse the same Net::TacacsPlus::Client object.
     - removed srand because not needed according to the rand perl doc
@@ -55,10 +58,9 @@ Revision history for Perl extension Net::TacacsPlus.
 1.02  Mon Jul 30 15:29:00 2007
     - removed Log4Perl, created Net::TacacsPlus
     - more pods, tests, cleanup, dependecies fix, MANIFEST fix
-    
     - this was more cleanup than fixes so that it cpan tests will run fine
 
 1.00  Fri Nov  3 13:32:06 2006
-	- original version; created by h2xs 1.23 with options
-		--omit-autoload --omit-XS --name Net::TacacsPlus::Client -b 5.6.0
+    - original version; created by h2xs 1.23 with options
+      --omit-autoload --omit-XS --name Net::TacacsPlus::Client -b 5.6.0
 
